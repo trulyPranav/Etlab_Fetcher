@@ -48,7 +48,6 @@ with container.form("Login", border=False):
                     userData = {
                         'isLoggedIn': True,
                         'Username': username,
-                        'Password': password,
                         'Name': name_tag.find_next('td').text.strip(),
                         'Gender': gender_tag.find_next('td').text.strip(),
                         'Department_ID': university_id.find_next('td').text.strip()
